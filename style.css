@@ -1,0 +1,169 @@
+* {
+  font-family: 'Inconsolata', monospace;
+}
+
+#nav {
+  background-color: #0D1A00;
+}
+
+.nav-item {
+  font-size: 21px;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+#header {
+  background-image: url("img/NightFullCity.jpg");
+  margin-bottom: auto;
+}
+
+.pic {
+  margin-left: 500px;
+  margin-top: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  transition: all .5s;
+}
+
+.pic:hover {
+  transform: scale(1.2) rotate(360deg);
+}
+
+#head {
+  font-size: 21px;
+  color: black;
+  font-weight: 300;
+  text-align: center;
+  background-color: #efefef;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+}
+
+.lead {
+  font-size: 21px;
+  color: white;
+  font-weight: 100;
+  text-align: center;
+  background-color: black;
+  padding: 10px;
+  border-radius: 5px;
+  display: table;
+  margin: 10px auto;
+}
+
+#do {
+  background-color: #0D1A00;
+  background-repeat: repeat;
+}
+
+.mt-0 {
+  color: #7CB9E8;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.card-body {
+  background-color: black;
+}
+
+.card-text {
+  color: white;
+  font-size: 20px;
+}
+
+#design {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bolder;
+  color: #7CB9E8;
+}
+
+.passion {
+  color: #7CB9E8;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.text {
+  color: white;
+  font-size: 21px;
+  font-weight: 300;
+}
+
+.mypic {
+  margin-top: 50px;
+  margin-right: 8px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #7CB9E8;
+  transition: all .5s;
+}
+
+#project {
+  color: #7CB9E8;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+h4 {
+  color: #7CB9E8;
+  font-weight: bold;
+}
+
+/*#pro {
+    background-color: black;
+}*/
+footer {
+  background-color: black;
+  background-repeat: repeat;
+  margin-top: -10px;
+  /*margin-bottom: 1px;*/
+}
+
+.footer {
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.email {
+  color: #7CB9E8;
+  font-size: 21px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.copyright {
+  font-size: 20px;
+  font-weight: 200;
+  color: #7CB9E8;
+  text-align: center;
+}
+
+.social {
+  display: inline;
+}
+
+/* Styles for smaller screens */
+@media screen and (max-width: 600px) {
+  .pic {
+    margin-left: 150px;
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: all .5s;
+  }
+}
+
+@media screen and (min-width: 1034px) {}
